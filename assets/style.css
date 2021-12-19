@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #eeeef6;
   }
 
 :root {
@@ -11,21 +12,24 @@
   }
 
   header {
-    height: 50px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2%;
-    background-color: #31343c;
+    padding: 0;
+    background-color: var(--dark);
     color: var(--light);
   }
 
   header h1 {
-    color: #31343c;   
-    background-color: #9ecacd;
-    background-size: 120% auto;
-    font-size: 75px;
+    display: inline-block;
+    width:22%;
+    height: 70px;
+    text-align: right;
+    color: var(--dark);   
+    background-color: var(--light);
+    font-size: 64px;
     font-weight: bolder;
   }
 
@@ -33,13 +37,15 @@
     position: relative;
     flex-wrap: wrap;
     align-items: left;
+    background: var(--dark)
   }
 
   header a {
-      color:#9ecacd;
+      color:var(--light);
+      background: var(--dark);
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-size: 24px;
-      padding: 10px
+      padding: 20px
   }
   
   .banner {
@@ -47,7 +53,7 @@
   }
 
   .banner img {
-    height: 250px;  
+    height: 275px;  
     width: 100%;
   }
   .subtitle {
@@ -56,13 +62,15 @@
       right:16px;
       font-size: 48px;
       font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bolder;
       color: var(--dark);
       background-color: var(--light);  
   }
   main {
     display: flex;  
     flex-direction: column;
-
+    background: #eeeef6;
+    
   }
   main h2 {
       color: var(--text);
@@ -71,6 +79,7 @@
       padding: 5px;
       border-right: 5px solid var(--text);
       width: 20vh;
+      text-align: right;
   }
   main .about-me {
     display: flex;
@@ -154,6 +163,7 @@
     }
     footer {
         text-align: center;
+        background: #eeeef6;
     }
   @media screen and (max-width: 992px) {
       .card {
