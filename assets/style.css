@@ -76,7 +76,7 @@
     
     main h2 {
         color: var(--text);
-        font-size: xxx-large; 
+        font-size: 64px; 
         font-family:sans-serif;
         padding: 5px;
         border-right: 7px solid var(--text);
@@ -85,28 +85,26 @@
     }
     
     main .about-me {
-        display: flex;
+        display: flex; */
         flex-direction: row;
-        justify-content:start;
+        justify-content:s start;
         padding: 15px;
     }
-    
+  
     main p {
         padding: 10px;
         color: var(--text);
-        font-size: 18px;
+        font-size: 24px;
+        font-weight: bolder;
+        width: 60vw;
     }
     
     main .work {
-        /* display: flex; */
-        /* flex-direction: row; */
         display: grid;
         grid-template-columns: 1fr 3fr;
         grid-gap: 15px;
-        /* align-content:start; */
         justify-content: start;
         padding:15px;
-        /* width: 100%; */
     }
     
     main .work-examples {
@@ -134,7 +132,8 @@
         box-shadow: 10px 10px 10px 10px var(--dark);
         opacity: 50%;
     }
-      
+     
+    /* These are written as class vice id for the sake of clean html. The parent class is card.*/
     .surf-report {
         width: 60vw;
         height:60vh;
@@ -172,22 +171,24 @@
     .card h3 {
         position: absolute;
         bottom: 25px;
-        left: 0px;
+        left: -1px;
         color: var(--dark);
         font-size: 20px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         background-color: var(--light);
+        width: 200px;
         padding: 5px; 
     }
     
     .card p {
         position: absolute;
-        bottom:0px;
-        left: 0px;
+        bottom:-1px;
+        left: -1px;
         color: var(--dark);
         font-size: 14px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         background-color: var(--light);
+        width: 200px; 
         padding: 5px; 
     }
 
