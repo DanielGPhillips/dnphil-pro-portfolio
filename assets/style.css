@@ -85,7 +85,7 @@
     }
     
     main .about-me {
-        display: flex; */
+        display: flex; 
         flex-direction: row;
         justify-content:s start;
         padding: 15px;
@@ -133,11 +133,10 @@
         opacity: 50%;
     }
      
-    /* These are written as class vice id for the sake of clean html. The parent class is card.*/
-    .surf-report {
+    .glenda {
         width: 60vw;
         height:60vh;
-        background-image:url(./images/surf_wave.png);
+        background-image:url(./images/glenda_screenshot2.png);
     }
 
     .led-wall {
@@ -288,4 +287,4 @@
         }
 
     }
-
+ 
