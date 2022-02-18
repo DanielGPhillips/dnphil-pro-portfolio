@@ -139,10 +139,10 @@
         background-image:url(./images/glenda_screenshot2.png);
     }
 
-    .led-wall {
+    .emerald-thumb {
         height: 30vh;
         width: 30vw;
-        background-image:url(./images/led_wall.png);  
+        background-image:url(./images/emerald_thumb_resized.png);  
         border: 3px solid var(--light)
     }
     
